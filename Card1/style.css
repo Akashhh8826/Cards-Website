@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+
+.container{
+   width: 100vw;
+   height: 100vh;
+   background-color: #83a4d4;;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.card{
+    width: 20%;
+    height: 60%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.card p{
+    text-align: center;
+}
+
+.card h2{
+    text-align: center;
+    font-size: 1.3rem;
+}
